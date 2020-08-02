@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+body {
+  margin: 0;
+    height:530vh;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navsec{
+    height:100vh;
+    position:relative;
+    background-image:url(../images/back.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.slogan{
+    height: 70px;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.logoimg{
+    height: 20vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.service{
+    height: 100vh;
+    background-image:url(../images/back1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.left{
+    width: 49vw;
+    float: left;
+    height: 100%;
+    margin:0px;
+    padding:0px;
+    z-index: 500;
+}
+
+.heading1{
+    font-size: 90px;
+    padding: 10% 10% 0% 10%;
+    display: inline-flex;
+}
+
+.heading2{
+    font-size: 90px;
+    padding: 0% 10% 5% 10%;
+    display: inline-flex;
+}
+
+.mt{
+    margin-top: -4%;
+}
+
+.and{
+    font-size: 90px;
+    margin-left: 14%;
+}
+
+.description{
+    margin: 5% 20% 0% 20%;
+    text-align: justify; 
+}
+
+.right{
+    width: 49vw;
+    float: right;
+    height: 100%; 
+    margin:0px;
+    padding:0px;
+}
+
+
+    
+.servicebtn{
+    text-align: center;
+    margin-top: 5%;
+}
+.servicebtn span{
+    color: black;
+    padding: 2%;
+    border-radius: 2%;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.mbtn span{
+    background-color: #4393cc;
+}
+.sbtn span{
+    background-color: #582e80;
+}
+.lbtn span{
+    background-color: #f8a35e;
+}
+
+
+.m1{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/marketing/01.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m2{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/marketing/02.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m3{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/03.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m4{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/04.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m5{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/05.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m6{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/06.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m7{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/07.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m8{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/08.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m9{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/09.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m10{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/010.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m11{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/011.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m12{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/012.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m13{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/013.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m14{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/014.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.m15{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/marketing/015.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+
+
+
+.s1{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/100.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s2{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/200.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s3{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/300.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s4{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/400.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s5{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/500.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s6{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/600.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s7{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/700.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s8{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/800.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s9{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/900.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s10{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/1000.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s11{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/1100.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s12{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/1200.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s13{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/1300.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.s14{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/startup/1400.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+
+
+
+.l0{
+	width: 49%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/LegalX/0.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l1{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/1.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l2{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/2.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l3{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/3.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l4{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/4.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l5{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/5.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l6{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/6.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l7{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/7.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l8{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/8.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l9{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/9.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l10{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/10.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l11{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/11.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l12{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/12.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l13{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/13.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l14{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/14.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+.l15{
+	width: 49%;
+	height: 90vh;
+	position: absolute;
+	background: url(../images/LegalX/15.png) no-repeat 50% 50%;
+	background-size: cover;
+	z-index:10;
+}
+
+
+.callsec{
+    height:100vh;
+    background-image:url(../images/back.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.call{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.callheader{
+    margin: 0px;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+.callline{
+    width: 120%;
+    margin: 3% -10%;
+}
+.callp{
+    margin: 5% 8%;
+    font-size: 20px;
+}
+.callbutton{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+.footersec{
+    background-color: black;
+    height:30vh;
+}
+
+.footersec p{
+    letter-spacing: 7px;
+    margin:0px;
+    text-align: center;
+    font-size: 10px;
+}
+.social{
+    list-style: none;
+    padding: 0 2%;
+}
+.social li{
+    display: inline;
+    padding: 0 2%;
+}
+.social li a{
+    color: white;
+}
+.social li a:hover{
+    color: gray;
+}
+.logof{
+    height:15vh;
+}
+.leftf{
+    background-color: black;
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.midf{
+    margin: auto; 
+    text-align: center;
+}
+.rightf{
+    background-color: black;
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.blue {
+    color: #61a8f1;
+    margin-left:10px;
+}
+
+
+
+@media screen and (max-width:812px) { 
+    
+    .slogan{
+        height: 150px;
+        width: 60%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .service{
+        height: 130vh;
+        background-color: black;
+    }
+    .heading1{
+        font-size: 50px;
+        padding: 10% 10% 0% 10%;
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .heading2{
+        font-size: 50px;
+        padding: 0% 10% 5% 10%;
+        display: inline-flex;
+        
+        text-align: center;
+    }
+    .left{
+        width: 100vw;
+        float:none;
+        margin:0px;
+        padding:0px;
+        z-index: 1;
+    }
+    .description{
+        margin: 5% 20% 0% 20%;
+        text-align: justify; 
+        font-size: 20px;
+    }
+    .right{
+        width: 100vw;
+        float: none;
+        height: 100%; 
+        margin:-130% 0px;
+        padding:0px;
+        z-index:-1;
+    }
+    
+    .and{
+        font-size: 50px;
+        margin-left: 14%;
+    }
+    
+    .m1{
+        width: 100%;
+        height: 50%;
+        z-index: 1;
+    }
+    .m2{
+         width: 100%;
+        height: 50vh;
+    }
+    .m3{ width: 100%;
+        height: 50vh;
+    }
+    .m4{
+         width: 100%;
+        height: 50vh;
+    }
+    .m5{
+        width: 100%;
+        height: 50vh;
+    }
+    .m6{
+         width: 100%;
+        height: 50vh;
+    }
+    .m7{
+        width: 100%;
+        height: 50vh;
+    }
+    .m8{
+         width: 100%;
+        height: 50vh;
+    }
+    .m9{
+         width: 100%;
+        height: 50vh;
+    }
+    .m10{
+         width: 100%;
+        height: 50vh;
+    }
+    .m11{
+         width: 100%;
+        height: 50vh;
+    }
+    .m12{
+        width: 100%;
+        height: 50vh;
+    }
+    .m13{
+         width: 100%;
+        height: 50vh;
+    }
+    .m14{
+         width: 100%;
+        height: 50vh;
+    }
+    .m15{
+         width: 100%;
+        height: 50vh;
+    }
+    
+    
+    .s1{
+       width: 100%;
+        height: 50%;
+    }
+    .s2{
+        
+        width: 100%;
+        height: 50vh;
+    }
+    .s3{
+        width: 100%;
+        height: 50vh;
+    }
+    .s4{
+        width: 100%;
+        height: 50vh;
+    }
+    .s5{
+        width: 100%;
+        height: 50vh;
+    }
+    .s6{
+        width: 100%;
+        height: 50vh;
+    }
+    .s7{
+        width: 100%;
+        height: 50vh;
+    }
+    .s8{
+        width: 100%;
+        height: 50vh;
+    }
+    .s9{
+        width: 100%;
+        height: 50vh;
+    }
+    .s10{
+        width: 100%;
+        height: 50vh;
+    }
+    .s11{
+        width: 100%;
+        height: 50vh;
+    }
+    .s12{
+        width: 100%;
+        height: 50vh;
+    }
+    .s13{
+        width: 100%;
+        height: 50vh;
+    }
+    .s14{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    
+    .l0{
+        width: 100%;
+        height: 50%;
+    }
+    .l1{
+        width: 100%;
+        height: 50vh;
+    }
+    .l2{
+        width: 100%;
+        height: 50vh;
+    }
+    .l3{
+        width: 100%;
+        height: 50vh;
+    }
+    .l4{
+        width: 100%;
+        height: 50vh;
+    }
+    .l5{
+        width: 100%;
+        height: 50vh;
+    }
+    .l6{
+        width: 100%;
+        height: 50vh;
+    }
+    .l7{
+        width: 100%;
+        height: 50vh;
+    }
+    .l8{
+        width: 100%;
+        height: 50vh;
+    }
+    .l9{
+        width: 100%;
+        height: 50vh;
+    }
+    .l10{
+        width: 100%;
+        height: 50vh;
+    }
+    .l11{
+        width: 100%;
+        height: 50vh;
+    }
+    .l12{
+        width: 100%;
+        height: 50vh;
+    }
+    .l13{
+        width: 100%;
+        height: 50vh;
+    }
+    .l14{
+        width: 100%;
+        height: 50vh;
+    }
+    .l15{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .leftf{
+        padding-top: 10px;
+    }
+    .rightf{
+        padding-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
